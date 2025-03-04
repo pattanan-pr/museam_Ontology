@@ -2,3 +2,6 @@ This ontology represents a structured model of museums, their categories, collec
 
 This project is part of my learning and implementation journey in ontology modeling using Protégé. 
 I studying and modifying it to better understand OWL, RDF, and semantic web concepts.
+
+
+p.s. Using Protege to open
