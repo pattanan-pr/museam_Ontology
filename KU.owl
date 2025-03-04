@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-4="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasCategory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasCollection -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasCollection"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasEvent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasInformationBoard -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasInformationBoard"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasStaff -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasStaff"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasOpenperiod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasOpenperiod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasTicketPrice -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#hasTicketPrice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#isLocationin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#isLocationin"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Art -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Art">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Association -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Association">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Museum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Attraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Attraction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Collection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Collection"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Discovery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Discovery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Information_Board -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Information_Board"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Museum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Museum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Attraction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Park -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Park">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Attraction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Private -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Private">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Museum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Public -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Public">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Museum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Staff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Staff"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Zoo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Zoo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Attraction"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Cleaning_personnel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Cleaning_personnel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Staff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Moca_Meseum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Moca_Meseum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Public"/>
+        <hasCategory rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Painting"/>
+        <hasCollection rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Monalisa"/>
+        <hasEvent rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Leonardo_da_Vinci_Art&apos;s"/>
+        <hasInformationBoard rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Monalisa_board"/>
+        <hasStaff rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Cleaning_personnel"/>
+        <hasOpenperiod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8:00-16:00</hasOpenperiod>
+        <hasTicketPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</hasTicketPrice>
+        <isLocationin rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jatujak</isLocationin>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Monalisa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Monalisa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Collection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Monalisa_board -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Monalisa_board">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Information_Board"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#National_Science_Museum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#National_Science_Museum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Science"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Painting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Painting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Art"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Student -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Student"/>
+    
+
+
+    <!-- http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Leonardo_da_Vinci_Art&apos;s -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Leonardo_da_Vinci_Art&apos;s">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pattananprarom/ontologies/2023/0/untitled-ontology-4#Event"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
